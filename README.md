@@ -14,7 +14,7 @@ Get all contexts:
 ``` kubectl config get-contexts ```
 
 Use a context:
-```  ```
+``` kubectl config use-context rancher-desktop ```
 
 Create a deployment:
 ``` kubectl create deployment kbe-rest --image kartik9555/kbe-rest-brewery --dry-run=client -o=yaml>deployment.yml ``` 
